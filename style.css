@@ -1,0 +1,208 @@
+@font-face {
+  font-family: "NetflixSans";
+  src: url(fonts/NetflixSansRegular.ttf);
+}
+
+* {
+  font-family: "NetflixSans", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 46.875em;
+  width: 100%;
+  background-image: url(images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-color: rgba(65, 51, 51, 0.75);
+  background-blend-mode: soft-light;
+  background-attachment: scroll;
+}
+
+.language-and-sign-in-btn {
+  display: flex;
+  justify-content: space-around;
+  width: 12%;
+}
+
+.language-and-sign-in-btn .language {
+  text-decoration: none;
+  background-color: red;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+}
+.language-and-sign-in-btn .sign-in {
+  text-decoration: none;
+  background-color: red;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+}
+
+header .header-paragraphs {
+  margin: 150px auto;
+  width: 35%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+header h1 {
+  font-size: 66px;
+}
+
+header h1,
+h3,
+h6 {
+  color: white;
+}
+
+.email-field {
+  display: flex;
+  justify-content: center;
+}
+
+.email-address {
+  height: 60px;
+  width: 430px;
+  padding: 8px;
+  border: none;
+  color: gray;
+  background-color: white;
+  margin-right: 0;
+  display: block;
+}
+.email-address:focus {
+  outline: none;
+  box-shadow: none;
+}
+.get-started-btn {
+  text-align: center;
+  padding: 17px 40px 17px 20px;
+  margin-left: 0;
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+
+.get-started-btn:hover {
+  color: white;
+}
+
+.seperator {
+  height: 4px;
+  width: 100%;
+  background-color: #6b6b6b;
+}
+
+/* text - image */
+.second-sec {
+  height: 600px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.second-sec .first-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 80px;
+}
+
+.first-div h1,
+h4 {
+  color: white;
+}
+.second-sec .second-div {
+  background-image: url(images/dlf.pt-spider-man-homecoming-png-4922500.png);
+  background-size: cover;
+  height: 400px;
+  width: 500px;
+  border-radius: 8px;
+  border: 2px solid gray;
+  overflow: hidden;
+}
+
+/* image - text */
+
+.third-sec {
+  height: 600px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.third-sec .first-div {
+  background-image: url(images/mobile-0819.jpg);
+  background-size: cover;
+  height: 400px;
+  width: 500px;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  background-color: wheat;
+}
+
+.third-sec .downloading {
+  position: absolute;
+  border: 2px solid gray;
+  border-radius: 8px;
+  width: 300px;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  right: 85px;
+  bottom: 40px;
+  z-index: 2;
+}
+
+.third-sec .second-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 80px;
+}
+
+.third-sec .second-div h1,
+h4 {
+  color: white;
+}
+
+.questions-sec {
+  height: 600px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dd {
+  background-color: gray;
+}
+
+/* Accordion style */
+
+.accordion{
+  background-color: #6b6b6b;
+  color: blue;
+}
